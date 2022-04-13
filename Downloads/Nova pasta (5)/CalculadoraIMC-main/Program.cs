@@ -19,7 +19,7 @@ namespace CalculadoraIMC
 
             Console.WriteLine("Nome: {0}\nMassa: {1}\nAltura: {2}\nIMC: {3}", nome, massa, altura, imc);
 
-            if(imc <= 18.5)
+             if(imc <= 18.5)
             {
                 Console.WriteLine("Peso abaixo do normal");
             }
@@ -46,3 +46,6 @@ namespace CalculadoraIMC
         }
     }
 }
+        
+    
+
